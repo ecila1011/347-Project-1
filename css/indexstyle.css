@@ -1,7 +1,7 @@
-body {
+/* body {
     margin: 0;
     background-color: rgb(242, 227, 255);
-}
+} */
 
 h1{
     margin:0;
@@ -48,5 +48,9 @@ h1{
   
   .navlink > a:hover {
     background-color: rgb(198, 151, 255);
+  }
+
+  div {
+    background-image: url("/images/rainbow.jpg");
   }
   
