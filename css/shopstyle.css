@@ -7,7 +7,7 @@ body {
     margin: 0px;
   }
   
-  img{
+  #ava{
     width: 100%;
     margin: 0;
   }
@@ -69,7 +69,9 @@ body {
     background-size: cover;
   }
 
-  .content {
+  .content-back {
+    display: flex;
+    justify-content: center;
     margin: 80px;
     height: 90%;
     width: 80%;
@@ -77,4 +79,13 @@ body {
     background-color: white;
     
     /* background-color: rgb(242, 227, 255); */
+  }
+
+  content {
+    width: 10px;
+    margin: 180px;
+  }
+
+  img {
+    width: 100px;
   }
