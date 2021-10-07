@@ -88,11 +88,11 @@ h1{
 }
 
 @media only screen and (max-width: 650px) {
-    /* img {
-        width: 200px;
-        height:200px;
-        object-fit:cover;
-    } */
+
+    #bubble {
+        font-size: .85em;
+        margin: 30px;
+    }
 
     .content {
         margin: 50px;
