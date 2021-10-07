@@ -16,9 +16,14 @@ h1 {
     margin-bottom: 0;
 }
 
-.p1 {
-    width: 295px;
+figure {
+    width: 325px;
     padding: 30px;
+}
+
+figcaption {
+    width: 280px;
+    padding: 20px;
     text-align: left;
 
     background-color: rgb(221, 241, 255);
@@ -26,17 +31,28 @@ h1 {
     font-family: "Verdana";
 }
 
-figure {
-    width: 325px;
-    padding: 30px;
-}
-
-figcaption {
-    font-family: "Verdana";
-}
-
 #ava1 {
     width: 300px;
+    height: 300px;
+    object-fit: cover;
     border-radius: 20px;
+}
+
+@media only screen and (max-width: 650px) {
+
+    #ava1 {
+        width: 200px;
+        height:200px;
+        object-fit:cover;
+    }
+
+    figure {
+        width: 225px;
+    }
+
+    figcaption {
+        width: 180px;
+        font-size: .85em;
+    }
 }
   

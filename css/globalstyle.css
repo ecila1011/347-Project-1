@@ -70,8 +70,61 @@ margin: 0;
     background-color: rgb(255, 255, 255);
 }
 
-@media only screen and (max-width: 480px) {
+.content-in {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+  
+    width: 100%;
+    margin: 60px;
+    margin-top: 20px; 
+}
+
+.bubble{
+    font-family: "Verdana";
+    font-size: 1.25em;
+  
+    background-color: rgb(221, 241, 255);
+    padding: 20px;
+    border-radius: 30px;
+    margin: 50px;
+}
+
+h1{
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 650px) {
     img {
-        width: 100px;
+        width: 200px;
+        height:200px;
+        object-fit:cover;
     }
+
+    .bubble {
+        font-size: .85em;
+        margin: 30px;
     }
+
+    .content {
+        margin: 50px;
+    }
+
+    .content-in {
+        margin: 20px;
+    }
+
+    .navlink > a {
+        font-size: 1em;;
+    }
+
+    h1 {
+        font-size: 2em;
+        margin-bottom: 0;
+    }
+
+
+}

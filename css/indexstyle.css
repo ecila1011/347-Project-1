@@ -26,18 +26,6 @@ h1 {
   margin-bottom: 0;
 }
 
-p {
-  width: 80%;
-  font-family: "Verdana";
-  font-size: 1.25em;
-
-  background-color: rgb(221, 241, 255);
-  padding: 20px;
-  border-radius: 30px;
-  margin: 50px;
-}
-
-
 figcaption {
   font-family: "Verdana";
 }

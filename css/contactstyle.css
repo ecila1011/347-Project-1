@@ -1,18 +1,11 @@
-#p1{
-    font-family: "Verdana";
-    font-size: 1.25em;
-  
-    background-color: rgb(221, 241, 255);
-    padding: 20px;
-    border-radius: 30px;
-    margin: 50px;
-    margin-bottom: 0;
-  }
-
 h2 {
     font-size: 2.5em;
     margin-bottom: 0px;
     margin-top: 50px;
+}
+
+.content-in {
+    align-items:flex-start;
 }
 
 .form {
