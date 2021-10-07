@@ -85,6 +85,7 @@ margin: 0;
 .bubble{
     font-family: "Verdana";
     font-size: 1.25em;
+    width: 80%;
   
     background-color: rgb(221, 241, 255);
     padding: 20px;
@@ -98,11 +99,11 @@ h1{
 }
 
 @media only screen and (max-width: 650px) {
-    img {
+    /* img {
         width: 200px;
         height:200px;
         object-fit:cover;
-    }
+    } */
 
     .bubble {
         font-size: .85em;

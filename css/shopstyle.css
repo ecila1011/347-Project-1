@@ -5,6 +5,13 @@
   flex-wrap: wrap;
 }
 
+.pic {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
 img {
   width: 300px;
   height: 300px;
