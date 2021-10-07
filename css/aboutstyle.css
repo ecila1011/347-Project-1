@@ -40,6 +40,11 @@ figcaption {
 
 @media only screen and (max-width: 650px) {
 
+    #bubble {
+        font-size: .85em;
+        margin: 30px;
+    }
+
     #ava1 {
         width: 200px;
         height:200px;

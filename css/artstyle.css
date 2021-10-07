@@ -19,6 +19,17 @@
     border-radius: 20px;
 }
 
+#bubble{
+    font-family: "Verdana";
+    font-size: 1.25em;
+    width: 80%;
+  
+    background-color: rgb(221, 241, 255);
+    padding: 20px;
+    border-radius: 30px;
+    margin: 50px;
+}
+
 h2 {
       font-size: 2.5em;
       margin-bottom: 0px;
@@ -26,8 +37,14 @@ h2 {
 }
 
 @media only screen and (max-width: 650px) {
+
     .pic {
         height: 200px;
         width: 150px;
+    }
+
+    #bubble {
+        font-size: .85em;
+        margin: 30px;
     }
 }

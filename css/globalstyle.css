@@ -82,17 +82,6 @@ margin: 0;
     margin-top: 20px; 
 }
 
-#bubble{
-    font-family: "Verdana";
-    font-size: 1.25em;
-    width: 80%;
-  
-    background-color: rgb(221, 241, 255);
-    padding: 20px;
-    border-radius: 30px;
-    margin: 50px;
-}
-
 h1{
     font-size: 2.5em;
     margin-bottom: 10px;
@@ -104,11 +93,6 @@ h1{
         height:200px;
         object-fit:cover;
     } */
-
-    .bubble {
-        font-size: .85em;
-        margin: 30px;
-    }
 
     .content {
         margin: 50px;

@@ -9,6 +9,17 @@
   margin-top: 20px; 
 }
 
+#bubble{
+  font-family: "Verdana";
+  font-size: 1.25em;
+  width: 80%;
+
+  background-color: rgb(221, 241, 255);
+  padding: 20px;
+  border-radius: 30px;
+  margin: 50px;
+}
+
 img {
   width: 50%;
   border-radius: 30px;
@@ -28,4 +39,12 @@ h1 {
 
 figcaption {
   font-family: "Verdana";
+}
+
+@media only screen and (max-width: 650px) {
+
+  #bubble {
+      font-size: .85em;
+      margin: 30px;
+  }
 }
